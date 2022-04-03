@@ -2,5 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lywhxy.mapper.CustomerMapper">
-
+<!--    List<Customer> selectCustomers(Customer customer);-->
+    <select id="selectCustomers" parameterType="Customer" resultType="Customer">
+        select * from customer
+        <where>
+            <if test="cust_name != null and cust_name != ''">
+                and cust_name like concat("%", #{cust_name}, "%")
+            </if>
+            <if test="cust_level != null and cust_level != ''">
+                and cust_level = #{cust_level}
+            </if>
+            <if test="cust_source != null and cust_source != ''">
+                and cust_source = #{cust_source}
+            </if>
+        </where>
+    </select>
 </mapper>
