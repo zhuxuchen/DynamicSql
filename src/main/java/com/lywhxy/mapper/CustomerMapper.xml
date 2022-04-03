@@ -17,4 +17,11 @@
             </if>
         </where>
     </select>
+
+<!--    int updateCustomer(Customer customer);-->
+    <update id="updateCustomer" parameterType="Customer">
+        update customer
+        set cust_name = #{cust_name}, cust_mobile = #{cust_mobile}
+        where cust_id = #{cust_id}
+    </update>
 </mapper>

@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73130ef9-9866-4798-b655-2c94b3786c1e" name="默认变更列表" comment="创建项目">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="73130ef9-9866-4798-b655-2c94b3786c1e" name="默认变更列表" comment="完成查找">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lywhxy/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lywhxy/mapper/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lywhxy/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lywhxy/mapper/CustomerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lywhxy/mybatistest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lywhxy/mybatistest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.lywhxy/DynamicSql/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.lywhxy/DynamicSql/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lywhxy/mapper/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lywhxy/mapper/CustomerMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lywhxy/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lywhxy/mapper/CustomerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lywhxy/mybatistest/MyBatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lywhxy/mybatistest/MyBatisUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lywhxy/mybatistest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lywhxy/mybatistest/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lywhxy/pojo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lywhxy/pojo/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lywhxy/mybatistest/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lywhxy/mybatistest/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -96,8 +87,16 @@
       <workItem from="1648468004963" duration="51000" />
       <workItem from="1648473561730" duration="87000" />
       <workItem from="1648976138366" duration="582000" />
-      <workItem from="1648976754370" duration="6328000" />
+      <workItem from="1648976754370" duration="8932000" />
     </task>
+    <task id="LOCAL-00001" summary="完成查找">
+      <created>1648987666618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648987666618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +113,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成查找" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
