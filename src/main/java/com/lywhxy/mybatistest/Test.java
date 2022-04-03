@@ -5,6 +5,8 @@ import com.lywhxy.pojo.Customer;
 import org.apache.ibatis.session.SqlSession;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Test {
 	public static void selectCustomer(){
@@ -36,8 +38,28 @@ public class Test {
 		sqlSession.commit();
 		sqlSession.close();
 	}
+
+	public static void deleteList(){
+		List<Integer> ids = new ArrayList<Integer>();
+		ids.add(37);
+		ids.add(38);
+		ids.add(30);
+		ids.add(26);
+		//获取session
+		SqlSession sqlSession = MyBatisUtils.getSession();
+		//获取Mapper对象
+		CustomerMapper customerMapper = sqlSession.getMapper(CustomerMapper.class);
+		//调用查询
+		System.out.println(customerMapper.deleteCustomers(ids));
+		//更新操作需要commit
+		sqlSession.commit();
+		sqlSession.close();
+	}
+
 	public static void main(String[] args) throws IOException {
 		//selectCustomer();
-		updateCustomer();
+		//updateCustomer();
+		deleteList();
 	}
+
 }

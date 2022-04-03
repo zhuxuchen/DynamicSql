@@ -8,4 +8,5 @@ public interface CustomerMapper {
 
 	int updateCustomer(Customer customer);
 
+	int deleteCustomers(List<Integer> ids);
 }
