@@ -24,7 +24,7 @@ public class Test {
 	public static void updateCustomer(){
 		Customer customer = new Customer();
 		customer.setCust_id(26);
-		customer.setCust_name("小杰");
+		customer.setCust_name("小杰111");
 		customer.setCust_mobile("123456789");
 		//获取session
 		SqlSession sqlSession = MyBatisUtils.getSession();

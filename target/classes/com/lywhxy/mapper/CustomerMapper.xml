@@ -21,7 +21,14 @@
 <!--    int updateCustomer(Customer customer);-->
     <update id="updateCustomer" parameterType="Customer">
         update customer
-        set cust_name = #{cust_name}, cust_mobile = #{cust_mobile}
+        <set>
+            <if test="cust_name != null and cust_name != ''">
+                cust_name = #{cust_name},
+            </if>
+            <if test="cust_mobile != null and cust_mobile != ''">
+                cust_mobile = #{cust_mobile},
+            </if>
+        </set>
         where cust_id = #{cust_id}
     </update>
 </mapper>
